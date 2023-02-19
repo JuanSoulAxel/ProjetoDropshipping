@@ -1,0 +1,186 @@
+/*=========== RESET ==========*/
+
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+
+* {
+    margin: 0; 
+    padding: 0; 
+    font-size: 100%;  /*Unidades relativas coloca o font-size 100%*/
+    border: none; /*remover bordas*/
+    outline: none; /*remover esboço*/
+    font-weight: 300; 
+    box-sizing: border-box; /*Ou seja, quando usar um padding não vai alterar a dimensão do elemento*/
+    font-family: 'Slabo 27px', serif;
+}
+
+body {
+    background-color: #f5f5f5;
+}
+ 
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/*HEADER*/
+
+div#header1 p#txtFreteGratis {
+    padding: 0.6%;
+    width: 100%;
+    background: linear-gradient(to left, #6959CD, #6495ED);
+    color: white;
+    text-align: center;
+    font-size: 2.5vh;
+}
+
+div#header2 {
+    background-color: #fff;
+}
+
+div#header2 img#imgLogo {
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 3%;
+    max-width: 70px;
+    min-width: 70px;
+}
+
+div#header2 input#inpPesquisa {
+    margin-top: 3.8%;
+    margin-left: 20%;
+    width: 40%;
+    padding: 1%;
+    border-radius: 3vh;
+    border: 1px#000 solid;
+}
+
+
+div#ddd {
+    float: right;
+    margin-top: 3.8%;
+    margin-right: 4%;
+}
+
+img.imgRastrearECarrinho {
+    max-width: 35px;
+    min-width: 35px;
+}
+
+button.btnRastrearECarrinho {
+    background-color: #fff;
+    font-weight: bolder;
+    font-size: 1.7em;
+}
+
+
+
+
+/*MENU*/
+
+nav#menu ul {
+	list-style: none;
+	text-transform: uppercase;
+	margin-top: 2%;
+    margin-left: 30%;
+}
+
+nav#menu li {
+	font-size: 1em;
+	display: inline-block;
+	padding: 2vh;
+}
+
+nav#menu li a {
+    color: #000;
+    padding: 5%;
+}
+
+nav#menu li a:hover {
+    transition: 0.3s;
+    color: #6959CD;
+}
+
+
+/*SECTION*/
+
+
+/*CARROSSEL*/
+
+div.carrossel {
+    display: flex;
+    box-shadow: 2px 2px 4px black;
+    overflow: hidden; /*vai sumir com as outras imagens*/
+}
+
+div.container img {
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 60vh;
+    min-height: 60vh;
+    object-fit: cover;
+}
+
+div.container {
+    display: flex; /*Deixa as imagens alinhadas*/
+    transition: transform 0.5s ease-in-out; /*dá o efeito de imagem passando pro lado*/
+    transform: translateX(0);   
+}
+
+div.categorias h1, div.novidades h1{
+    padding: 5%;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+div.categorias img {
+    width: 34vh;
+    height: 34vh;
+    border-radius: 50vh;
+    padding: 1%;
+}
+
+div.categorias img:hover {
+    transition: 0.4s;
+    opacity: 0.7;
+}
+
+div.novidades div#nov-img {
+    float: left; /*importante colocar pra alinhar as divs!*/
+    width: 18%;
+    height: 45vh;
+    background-color: #fff;
+    text-align: center;
+    border: 0.1px solid;
+}
+
+div.novidades div.espacaresquerda {
+    margin-left: 5.1%;
+}
+
+div.novidades div#nov-img p#preco {
+    color:#6959CD;
+    font-size: 1.2em;
+}
+
+div.novidades div#nov-img p#preco:hover {
+    color:#6495ED;
+}
+
+div.novidades div#nov-img img{
+    width: 50vh;
+    height: 35vh;
+    padding: 20%;
+}
+
+div.novidades div#nov-img img:hover {
+    transition: 0.3s;
+    padding: 15%;
+}
