@@ -15,3 +15,13 @@ function carrossel() {
 }
 
 setInterval(carrossel, 3000);
+
+
+//Mudar nome da opção ver mais
+
+function aparecerTexto() {
+    document.getElementById("txtVerTodos").style.color = "#6959CD"
+}
+function reset() {
+    document.getElementById("txtVerTodos").style.color = "#6495ED";
+}

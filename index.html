@@ -62,7 +62,8 @@
             <img src="_img/chuteira.jpg" alt="">
         </div>
         <div class="novidades">
-            <h1>NOVIDADES</h1> 
+            <h2 onmouseover="aparecerTexto();" onmouseout="reset();" id="txtVerTodos">Ver todos</h2> <!--onmouse sõ as opções em js para aparecer e resetar o texto-->
+            <h1>NOVIDADES</h1>
 
             <div id="nov-img" class="espacaresquerda">
                 <img src="_img/camisapretaseleção.jpg" alt="">
@@ -90,10 +91,76 @@
                 <p id="preco">R$ 80,00</p>
             </div>
         </div>
+        <div class="maisvendidas">
+
+        </div>
     </section>
 
-    <footer>
-
+    <footer id="rodape">
+        <div id="rodape-parte1">
+            <div>
+                <img src="_img/caixa-rodape.png" alt="Caixa Envio imediato">
+                <h1>Entregamos em todo Brasil</h1>
+                <p>Envio imediato</p>
+            </div>
+            <div>
+                <img src="_img/carrinho-rodape.png" alt="Carrinho Satisfeito">
+                <h1>Cliente satisfeito ou reembolso imediato</h1>
+                <p>Prazo de entrega de 10 à 25 dias úteis</p>
+            </div>
+            <div>
+                <img src="_img/suporte-rodape.png" alt="Suporte Cliente">
+                <h1>Suporte ao cliente</h1>
+                <p>Atendimento Seg. a Sáb. 8:00h às 18:00h</p>
+            </div>
+            <div>
+                <img src="_img/pagamentoseguro-rodape.png" alt="Pagamento Seguro">
+                <h1>Pagamento seguro</h1>
+                <p>Aceitamos Cartão de Crédito, Boleto Bancário e Pix</p>
+            </div>
+        </div>
+        <div id="rodape-parte2">
+            <div>
+                <h1>MENU RODAPÉ</h1>
+                <nav id="menu-rodape">
+                    <ul>
+                        <li> <a href="">Contato</a> </li>
+                        <li> <a href="">Envios e prazo de entrega</a> </li>
+                        <li> <a href="">Políticas de privacidade</a> </li>
+                        <li> <a href="">Quem somos</a> </li>
+                        <li> <a href="">Rastreamento de pedido</a> </li>
+                        <li> <a href="">Trocas e devoluções</a> </li>
+                    </ul>
+                </nav>
+            </div>
+            <div id="email-promo">
+                <h1>RECEBA NOSSAS PROMOÇÕES</h1>
+                <p>Assine com seu e-mail abaixo:</p>
+                <input type="text" placeholder="Seu e-mail">
+                <button>Enviar</button>
+            </div>
+            <div>
+                <h1>PAGAMENTO SEGURO</h1>
+                <p>Utilizamos criptografia SSL para garantir que suas informações de pagamento sejam 100% protegidas.</p>
+            </div>
+            <div>
+                <h1>DÚVIDAS? FALE CONOSCO</h1>
+                <p>barruan.mm@gmail.com</p>
+            </div>
+        </div>
+        <div id="rodape-parte3">
+            <div>
+                <h1>© Juan Axel</h1>
+                <p>Todos Direitos Reservados</p>
+            </div>
+            <div>
+                <img src="_img/siteseguro.webp" alt="Icones Site Seguro">
+            </div>
+            <div id="espacaresquerda2">
+                <p>Nós aceitamos:</p>
+                <img id="imgFormaDePagamento" src="_img/formasdepagamento.png" alt="Formas de Pagamento">
+            </div>
+        </div>
     </footer>
 </body>
 </html>
