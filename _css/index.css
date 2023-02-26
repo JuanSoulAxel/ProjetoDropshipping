@@ -32,34 +32,48 @@ img {
 
 /*HEADER*/
 
-div#header1 p#txtFreteGratis {
-    padding: 0.6%;
-    width: 100%;
-    background: linear-gradient(to left, #6959CD, #6495ED);
-    color: white;
-    text-align: center;
-    font-size: 2.5vh;
-}
 
-div#header2 {
-    background-color: #fff;
-}
-
-div#header2 img#imgLogo {
-    position: absolute;
-    margin-left: 10%;
-    margin-top: 3%;
-    max-width: 70px;
-    min-width: 70px;
-}
-
-div#header2 input#inpPesquisa {
-    margin-top: 3.8%;
-    margin-left: 20%;
-    width: 40%;
+header#cabecalho {
     padding: 1%;
-    border-radius: 3vh;
-    border: 1px#000 solid;
+    background-color: #6495ED;
+}
+
+header#cabecalho img#imgLogo {
+    max-width: 20px;
+    min-height: 20px;
+}
+
+header#cabecalho label {
+    font-style: bold;
+    margin-top: 5%;
+    margin-left: 2%;
+    font-size: 2em;
+    color: #fff;
+    border: #fff solid;
+}
+
+header#cabecalho div {
+    margin-right: 1%;
+    text-align: center;
+    float: right;
+}
+
+header#cabecalho h2 {
+    color: #fff;
+}
+
+header#cabecalho div img {
+    max-width: 30px;
+    max-height: 20px;
+}
+
+header#cabecalho input#inpPesquisa {
+    margin-left: 2%;
+    width: 45%;
+    padding-top: 1.3%;
+    padding-bottom: 0.8%;
+    padding-left: 1%;
+    padding-right: 1%;
 }
 
 
@@ -119,7 +133,7 @@ div.carrossel {
     display: flex;
     box-shadow: 2px 2px 4px black;
     overflow: hidden; /*vai sumir com as outras imagens*/
-}
+}   
 
 div.container img {
     max-width: 100%;
