@@ -115,6 +115,7 @@ nav#menu li a:hover {
 /*CARROSSEL*/
 
 div.carrossel {
+    position: relative; /*está relativo pra os botoes de passar e voltar ficar na frente*/
     display: flex;
     box-shadow: 2px 2px 4px black;
     overflow: hidden; /*vai sumir com as outras imagens*/
@@ -191,6 +192,39 @@ div.novidades div#nov-img img:hover {
     padding: 15%;
 }
 
+div.maisprocurados {
+    text-align: center;
+    width: 90%;
+    padding: 3%;
+    margin-top: 25%;
+}
+
+div.maisprocurados h1 {
+    margin-left: 15%;
+    font-style: italic;
+    font-size: 1.7em;
+    text-align: center;
+}
+
+div.maisprocurados button {
+    margin: 0.7%;
+    padding: 1%;
+    background-color: #6495ED;
+    color: #fff;
+    border-radius: 10vh;
+}
+
+div.maisprocurados button:hover {
+    transition: 0.5s;
+    color: #D3D3D3;
+}
+
+
+div#botoesmaisprocurados {
+    margin-top: 3%;
+    margin-left: 15%;
+}
+
 /*RODAPE FOOTER*/
 
 footer#rodape {
@@ -221,7 +255,6 @@ div#rodape-parte2  {
 div#rodape-parte2 h1 {
     font-weight: bold;
 }
-
 
 div#rodape-parte2 p { /*todos os p da parte 2 vão ter o top 5%*/
     margin-top: 5%;     
@@ -278,7 +311,12 @@ div#rodape-parte3 div {
     width: 30%;
 }
 
-div#rodape-parte3 div#espacaresquerda2 {
+div#espacaresquerda2 {
     text-align: center;
-    margin-left: 8%;
+    margin-left: 4%;
+}
+
+
+#txtSeuEmail::-webkit-input-placeholder:hover{
+    color: #6959CD;
 }

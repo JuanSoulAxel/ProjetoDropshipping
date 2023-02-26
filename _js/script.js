@@ -14,7 +14,7 @@ function carrossel() {
     imgs.style.transform = `translateX(${-idx * 100}%)`;
 }
 
-setInterval(carrossel, 3000);
+setInterval(carrossel, 5000);
 
 
 //Mudar nome da opção ver mais
